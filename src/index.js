@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Memorize } from "./components/06-memos/Memorize";
+import { Padre } from "./components/07-tarea-memo/Padre";
+//import { CallbackHook } from "./components/06-memos/CallbackHook";
+//import { Memorize } from "./components/06-memos/Memorize";
 //import { Layout } from "./components/05-useLayoutEffect/Layout";
 //import { RealExampleRef } from "./components/04-useRef/RealExampleRef";
 //import { FocusScreen } from "./components/04-useRef/FocusScreen";
@@ -14,4 +16,4 @@ import { Memorize } from "./components/06-memos/Memorize";
 
 const divRoot = document.querySelector("#root");
 
-ReactDOM.render(<Memorize />, divRoot);
+ReactDOM.render(<Padre />, divRoot);
